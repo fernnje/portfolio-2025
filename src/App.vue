@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { inject } from "@vercel/analytics";
 import Header from "./components/Header.vue";
 import { useTranslations } from "./i18n/composables/useTranslations";
 import { usePreloader } from "./composables/usePreloader";
@@ -27,6 +28,9 @@ useRouteObserver();
 useClickSound();
 //useHoverSound();
 const { isTouch } = useAgent();
+
+// Initialize Vercel Analytics
+inject();
 </script>
 
 <template>
