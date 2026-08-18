@@ -102,7 +102,7 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
           <p class="box-description-details-name">Mongedev</p>
           <div class="box-description-details-location">
             <PinIcon class="box-description-details-location-icon" />
-            <p class="box-description-details-location-copy">{{ t("indonesia") }}</p>
+            <p class="box-description-details-location-copy">{{ t("germany") }}</p>
           </div>
         </div>
         <div class="box-description-line"></div>
